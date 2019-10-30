@@ -20,5 +20,6 @@ public class SplashActivity extends AppCompatActivity {
         StoreData.initializeStoreData(this);
         Intent intent = new Intent(this, BloodPressureActivity.class);
         startActivity(intent);
+        finish();
     }
 }
