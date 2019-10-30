@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Stolica</string>
+    <string name="home">Inicio</string>
+    <string name="blodd_pressure">Presión Sanguínea</string>
+    <string name="weight">Peso</string>
+    <string name="new_account_title">Nueva Cuenta</string>
+    <string name="name_field_text">Nombre: </string>
+    <string name="name_input_hint">nombre </string>
+    <string name="last_name_field_text">Apellido: </string>
+    <string name="last_name_input_hint">apellido</string>
+    <string name="date_of_birth_text_title">Fecha de Nacimiento:</string>
+    <string name="continue_string">Continuar</string>
+    <string name="add_blood_pressure_button_title">Agregar Presión Sanguínea</string>
+    <string name="add_weight">agregar peso</string>
+    <string name="systolic_field_title">Systolica</string>
+    <string name="diastolic_field_title">Diastolica</string>
+    <string name="delete_all_blood_pressure_data_title">Desea borrar todo los datos de %s?</string>
+    <string name="delete_data_button_text">Borrar Datos</string>
+    <string name="go_back_button_text">Regresar</string>
+    <string name="account_details_title">Perfil</string>
+    <string name="add_new_account">agregar</string>
+    <string name="change_account">Cambiar</string>
+    <string name="blood_pressure_more_details_title">Más Detalles</string>
+    <string name="change_profile_title">Cambiar Perfil</string>
+    <string name="current_pressure_in_blood_pressure_details">Presión:</string>
+    <string name="ideal_blood_pressure_in_blood_pressure_details">Presión Ideal:</string>
+    <string name="add_new_blood_pressure">Agregar</string>
+    <string name="add_data_title">Agregar Dato</string>
+    <string name="name_field_section_title_profile">Nombre:</string>
+    <string name="date_of_birth_section_title_profile">Fecha de Nacimiento:</string>
+</resources>

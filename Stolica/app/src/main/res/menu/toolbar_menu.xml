@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clear_all_action"
+        android:orderInCategory="300"
+        android:title="Borrar"
+        android:icon="@drawable/clear_all_icon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add_blood_pressure_action"
+        android:orderInCategory="300"
+        android:title="Agregar"
+        android:icon="@drawable/add_icon"
+        app:showAsAction="always"/>
+</menu>

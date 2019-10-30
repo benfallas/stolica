@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_details_title"
+        android:textAlignment="center"
+        android:textColor="@color/dark_primary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_field_section_title_profile"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        style="@style/Field_Section_Title"/>
+
+    <TextView
+        android:id="@+id/account_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/Title_Style"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_of_birth_section_title_profile"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        style="@style/Field_Section_Title"/>
+
+    <TextView
+        android:id="@+id/account_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/Title_Style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/add_new_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/add_new_account"
+            style="@style/Dark_Button_Style"/>
+
+        <Button
+            android:id="@+id/change_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/change_account"
+            style="@style/White_Button_style"/>
+    </LinearLayout>
+</LinearLayout>

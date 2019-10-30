@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Stolica</string>
+    <string name="home">Home</string>
+    <string name="blodd_pressure">Blood Pressure</string>
+    <string name="weight">Weight</string>
+    <string name="new_account_title">New Account</string>
+    <string name="name_field_text">Name: </string>
+    <string name="name_input_hint">name </string>
+    <string name="last_name_field_text">Lastname: </string>
+    <string name="last_name_input_hint">lastname</string>
+    <string name="date_of_birth_text_title">Date of Birth:</string>
+    <string name="continue_string">Continue</string>
+    <string name="add_blood_pressure_button_title">Add Blood Pressure</string>
+    <string name="add_weight">Add Weight</string>
+    <string name="systolic_field_title">Systolic</string>
+    <string name="diastolic_field_title">Diastolic</string>
+    <string name="delete_all_blood_pressure_data_title">Are you sure you want to delete %s\'s data?</string>
+    <string name="delete_data_button_text">Delete Data</string>
+    <string name="go_back_button_text">Go Back</string>
+    <string name="account_details_title">Profile</string>
+    <string name="add_new_account">Add</string>
+    <string name="change_account">Change</string>
+    <string name="blood_pressure_more_details_title">More Details</string>
+    <string name="change_profile_title">Change Profile</string>
+    <string name="current_pressure_in_blood_pressure_details">Pressure:</string>
+    <string name="ideal_blood_pressure_in_blood_pressure_details">Ideal Pressure:</string>
+    <string name="add_new_blood_pressure">Add</string>
+    <string name="add_data_title">Add Data</string>
+    <string name="name_field_section_title_profile">Name:</string>
+    <string name="date_of_birth_section_title_profile">Date of Birth:</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeItem"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/blood_pressure"
+            android:icon="@drawable/blood_pressure_icon"
+            android:title="@string/blodd_pressure"/>
+        <item
+            android:id="@+id/weight"
+            android:icon="@drawable/weight_icon"
+            android:title="@string/weight"/>
+    </group>
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_16">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_account_title"
+        android:textAlignment="center"
+        style="@style/Title_Style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_field_text"
+            android:layout_weight="1"
+            style="@style/Field_Section_Title"/>
+
+        <EditText
+            android:id="@+id/name_input_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_input_hint"
+            android:layout_weight="3"
+            style="@style/Field_Section_Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_name_field_text"
+            android:layout_weight="1"
+            style="@style/Field_Section_Title"/>
+
+        <EditText
+            android:id="@+id/last_name_input_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name_input_hint"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_of_birth_text_title"
+        style="@style/Field_Section_Title"/>
+
+    <DatePicker
+        android:id="@+id/date_of_birth_picker"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_gravity="center"
+        android:datePickerMode="spinner" />
+
+
+    <Button
+        android:id="@+id/add_new_account_continue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_string"
+        android:enabled="false"
+        style="@style/Dark_Button_Style"/>
+
+</LinearLayout>
